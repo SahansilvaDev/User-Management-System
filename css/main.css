@@ -1,0 +1,453 @@
+/* simple CSS */
+
+
+/* * {
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.login{
+    width:350px;
+    margin: 100px auto; 
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+div.errmsg {
+    color: red;
+}
+
+p.error {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+p.info {
+    background: rgb(0, 131, 22);
+    color: white;
+    padding: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+
+button{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header {
+	background: #eee;
+	overflow: auto;
+	padding: 10px;
+}
+
+header .appname {
+	float: left;
+
+}
+
+header .loggedin {
+	float: right;
+}
+
+main{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+
+main h1 {
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+main h1 span {
+	font-size: 20px;
+}
+
+table.masterlist {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.masterlist th {
+	background: #aaa;
+	text-align: left;
+}
+
+table.masterlist th, table.masterlist td {
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+form.userform label {
+	width: 30%;
+	float: left;
+}
+
+form.userform input {
+	width: 60%;
+}
+
+form.userform button {
+	width: 200px;
+}
+
+.errmsg{
+    margin: 20px 0;
+} */
+
+
+
+/* Advanced CSS UI UX */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Login Form Container */
+/* Error Message Styling */
+p.error {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 15px; /* Adds space below the error message */
+    text-align: center;
+}
+
+/* Login Form Container */
+.login {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+/* Fieldset with Neon Border */
+fieldset {
+    border: 2px solid #146eff; /* Neon green color */
+    border-radius: 8px;
+    padding: 20px; /* Space inside the border */
+    margin: 20px 0; /* Space around the fieldset */
+    box-shadow: 0 0 10px #146eff, 0 0 20px #146eff, 0 0 30px #146eff; /* Neon glow effect */
+}
+
+/* Style for Legend */
+legend {
+    padding: 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #146eff; /* Same neon color as border */
+    background-color: #fff; /* Optional: Background color to separate legend from fieldset */
+    border-radius: 4px; /* Rounded corners for legend */
+    box-shadow: 0 0 5px #146eff; /* Subtle glow effect */
+}
+
+
+/* Form Heading */
+.login h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Input Fields */
+.login label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border-color: #146eff;
+    outline: none;
+}
+
+/* Login Button */
+.login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #146eff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.login button:hover {
+    background-color: #29b92b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/* Form Elements */
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+button:hover {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Alerts and Messages */
+div.errmsg {
+    color: red;
+}
+
+p.error, p.info {
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+p.error {
+    background-color: #e74c3c;
+}
+
+p.info {
+    background-color: #27ae60;
+}
+
+/* Header */
+header {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px; /* Adjusts left and right padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .appname {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* Log Out Button */
+
+header .loggedin {
+    display: flex;
+    align-items: center;
+}
+
+header .loggedin a {
+    margin-left: 10px; /* Space between the welcome message and button */
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+header .loggedin a:hover {
+    background-color: #c0392b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main h1 span {
+    font-size: 20px;
+    color: #777;
+}
+
+/* Table Styles */
+table.masterlist {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.masterlist th {
+    background: #f4f7f9;
+    color: #333;
+    font-weight: 600;
+}
+
+table.masterlist th, table.masterlist td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.masterlist tr:hover {
+    background: #f1f1f1;
+}
+
+/* Form Layout */
+form.userform label {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form.userform input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form.userform button {
+    width: auto;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form.userform button:hover {
+    background: #2980b9;
+}
+
+/* Error Message */
+.errmsg {
+    color: #e74c3c;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #e74c3c;
+    background: #fee;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+
+/* Button Styles for <h1>Users <span><a href="add-user.php">+ Add New</a>  | <a href="users.php">Refresh </a></span></h1>  */
+
+
+/* Button Styles */
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-left: 10px; /* Spacing between buttons */
+}
+
+/* Primary Button (Add New) */
+.btn-primary {
+    background-color: #3498db; /* Blue color */
+}
+
+.btn-primary:hover {
+    background-color: #170197;/* Darker blue on hover */
+    color: white; 
+}
+
+/* Secondary Button (Refresh) */
+.btn-secondary {
+    background-color: #2ecc71; /* Green color */
+}
+
+.btn-secondary:hover {
+    background-color: #058b3d; /* Darker green on hover */
+    color: white;
+}

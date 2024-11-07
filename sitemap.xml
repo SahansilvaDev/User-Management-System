@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>user Management System site Map</title>
+</head>
+<body>
+    Login (index.php) <---------------------|
+            |                               |
+            |                         log off (logout.php)
+            |                               ^
+            v                               |
+    User List(users.php) -------------------|
+            |
+            |-------->Add New User (add-user.php)
+            |
+            |--------> View / Modify User (modify-user.php) 
+                                    |
+                                    |
+                                    |------> Change Passwrod (change-password.php)
+                                    |
+                                    |
+                                    |------> Delete (delete-user.php)
+
+
+
+
+
+
+
+</body>
+</html>
